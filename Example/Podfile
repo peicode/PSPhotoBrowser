@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PSPhotoBrowser_Example' do
+  pod 'PSPhotoBrowser', :path => '../'
+
+  target 'PSPhotoBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
