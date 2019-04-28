@@ -1,0 +1,16 @@
+PODS:
+  - PSPhotoBrowser (0.1.0)
+
+DEPENDENCIES:
+  - PSPhotoBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  PSPhotoBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PSPhotoBrowser: 96c6b3f2370add817c4e1f061a6bf496f74c3ae9
+
+PODFILE CHECKSUM: 58c4a6e91e00c87dbb3ba7d5a04c7f9a7bb7a01d
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,6 @@
+framework module PSPhotoBrowser {
+  umbrella header "PSPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}
