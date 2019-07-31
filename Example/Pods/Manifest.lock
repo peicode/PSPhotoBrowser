@@ -1,16 +1,29 @@
 PODS:
-  - PSPhotoBrowser (0.1.0)
+  - Hero (1.4.0)
+  - PSPhotoBrowser (0.1.0):
+    - Hero
+    - SDWebImage (~> 2.3)
+  - SDWebImage (2.7.4):
+    - SDWebImage/Main (= 2.7.4)
+  - SDWebImage/Main (2.7.4)
 
 DEPENDENCIES:
   - PSPhotoBrowser (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Hero
+    - SDWebImage
 
 EXTERNAL SOURCES:
   PSPhotoBrowser:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PSPhotoBrowser: 96c6b3f2370add817c4e1f061a6bf496f74c3ae9
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  PSPhotoBrowser: c85a9acd4264fadd6c5a43c67f7852b2bfe52448
+  SDWebImage: b3ede4892445265c8a3f47fdcfaecfcd2e9d167c
 
-PODFILE CHECKSUM: 58c4a6e91e00c87dbb3ba7d5a04c7f9a7bb7a01d
+PODFILE CHECKSUM: dc0e02fc07bbbc911c58f0f67f0404def99687df
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.5

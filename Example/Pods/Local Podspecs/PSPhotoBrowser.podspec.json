@@ -1,9 +1,10 @@
 {
   "name": "PSPhotoBrowser",
   "version": "0.1.0",
-  "summary": "A short description of PSPhotoBrowser.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/PEIcode/PSPhotoBrowser",
+  "summary": "lpz",
+  "swift_versions": "4.0",
+  "description": "图片浏览器",
+  "homepage": "https://github.com/peicode/PSPhotoBrowser",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,20 @@
     "PEIcode": "aishiklpz@163.com"
   },
   "source": {
-    "git": "https://github.com/PEIcode/PSPhotoBrowser.git",
+    "git": "https://github.com/peicode/PSPhotoBrowser.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PSPhotoBrowser/Classes/**/*"
+  "source_files": "PSPhotoBrowser/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 2.3"
+    ],
+    "Hero": [
+
+    ]
+  },
+  "swift_version": "4.0"
 }
