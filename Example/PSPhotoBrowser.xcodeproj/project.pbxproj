@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		191229216C365B61AEF7AEE6 /* Pods_PSPhotoBrowser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF41C071357931CDCBEEC45B /* Pods_PSPhotoBrowser_Example.framework */; };
 		339597CC79BE906ABBA3738C /* Pods_PSPhotoBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEBC70E0531B5ED3EFF7E278 /* Pods_PSPhotoBrowser_Tests.framework */; };
+		396FE45F22F16F9600671C3A /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396FE45E22F16F9600671C3A /* PhotoViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		1C9136760E8DC4861E007D0A /* Pods-PSPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSPhotoBrowser_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PSPhotoBrowser_Tests/Pods-PSPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		375B3FFA7CB7E1AF735FFC07 /* Pods-PSPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSPhotoBrowser_Tests.release.xcconfig"; path = "Target Support Files/Pods-PSPhotoBrowser_Tests/Pods-PSPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		396FE45E22F16F9600671C3A /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PSPhotoBrowser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSPhotoBrowser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		607FACD21AFB9204008FA782 /* Example for PSPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				396FE45E22F16F9600671C3A /* PhotoViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -227,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -335,6 +339,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				396FE45F22F16F9600671C3A /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
